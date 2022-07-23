@@ -26,7 +26,7 @@ h1 {
     padding-bottom: 0;
     text-align: center;
     background-color: var(--White);
-
+    margin: 0;
 }
 
 .contact {
