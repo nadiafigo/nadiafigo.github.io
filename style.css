@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Raleway:ital,wght@0,700;1,500&display=swap');
+
+:root
+{
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Blue: hsl(200, 100%, 62%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue: hsl(184, 22%, 29%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+}
+
 h1 {
  font-size:30px;
- color: hsl(188, 100%, 33%);
+ color: var(--White);
+ font-family: Raleway;
+ font-weight: 700;
+ background-color: var(--Dark-blue);
 }
