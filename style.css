@@ -2,12 +2,8 @@
 
 :root
 {
-    --Soft-red: hsl(7, 99%, 70%);
-    --Yellow: hsl(51, 100%, 49%);
-    --Blue: hsl(200, 100%, 62%);
-    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
-    --Dark-blue: hsl(184, 22%, 29%);
-    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+    --Dark-cyan: hsl(168, 34%, 41%);
+    --Dark-blue: hsl(183, 25%, 32%);
     --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
     --Very-dark-grayish-blue: hsl(213, 9%, 39%);
     --Dark-grayish-blue: hsl(232, 10%, 55%);
@@ -15,10 +11,40 @@
     --White: hsl(0, 0%, 100%);
 }
 
+body {
+    background-color: var(--Dark-blue);
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
- font-size:30px;
- color: var(--White);
- font-family: Raleway;
- font-weight: 700;
- background-color: var(--Dark-blue);
+    font-size:60px;
+    color: var(--Dark-blue);
+    font-family: Raleway;
+    font-weight: 700;
+    padding: 100px;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: var(--White);
+
+}
+
+.contact {
+    margin-top: 200px;
+}
+
+p {
+    font-size:25px;
+    color: var(--White);
+    font-family: Raleway;
+    font-weight: 500;
+    font-style: italic;
+    margin: 30px;
+    text-align: center;
+}
+
+a {
+    color: var(--White);
+    font-family: Raleway;
+    text-align: center;
 }
