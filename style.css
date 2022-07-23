@@ -22,7 +22,7 @@ h1 {
     color: var(--Dark-blue);
     font-family: Raleway;
     font-weight: 200;
-    padding: 100px;
+    padding: 80px;
     padding-bottom: 0;
     text-align: center;
     background-color: var(--White);
@@ -31,11 +31,11 @@ h1 {
 }
 
 .contact {
-    margin-top: 400px;
+    margin-top: 300px;
 }
 
 p {
-    font-size:30px;
+    font-size:25px;
     color: var(--White);
     font-family: Raleway;
     font-weight: 300;
